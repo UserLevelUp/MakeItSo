@@ -52,7 +52,7 @@ await lcars.WriteAsync("logs", "User signed in");
 
 ```csharp
 // Register a custom suffix for files marked as "archived"
-options.SuffixConfiguration.RegisterCustomSuffix("archive", fileName => $"{fileName}_archive_{DateTime.Now:yyyyMMdd}");
+options.SuffixConfiguration.RegisterCustomSuffix("archive", fileName => $"{fileName}_archive_sd{DateTime.Now:yyyy}.{DateTime.Now.DayOfYear:000}");
 ```
 *You can create custom suffixes for archiving, backups, errors, or any workflow you need—**"I'm givin' her all she's got, Captain!"***
 
