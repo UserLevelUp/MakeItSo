@@ -1,6 +1,6 @@
 # 🖖 MakeItSo: Simple & Reliable File Management for .NET, Inspired by Star Trek LCARS
 
-## What is MakeItSo?
+## What is MakeItSo?  - Currently in idea stage.
 
 **MakeItSo** helps you safely create, organize, and track files and logs in your .NET applications. Inspired by Star Trek's LCARS computer system, it makes file engagement easy, reliable, and even fun—**engaging maximum warp** for your development workflow.
 
